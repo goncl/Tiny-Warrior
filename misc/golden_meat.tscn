@@ -1,0 +1,71 @@
+[gd_scene load_steps=11 format=3 uid="uid://x1fal2eghbtx"]
+
+[ext_resource type="PackedScene" uid="uid://djbg0mm1ruq0t" path="res://misc/meat.tscn" id="1_8q3oj"]
+[ext_resource type="Texture2D" uid="uid://cluao7pi5nxjm" path="res://addons/Tiny Swords/Resources/Resources/M_Spawn.png" id="2_hfa12"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mo3v4"]
+atlas = ExtResource("2_hfa12")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bvtrc"]
+atlas = ExtResource("2_hfa12")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ky26i"]
+atlas = ExtResource("2_hfa12")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m17ja"]
+atlas = ExtResource("2_hfa12")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eabh1"]
+atlas = ExtResource("2_hfa12")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_asbrc"]
+atlas = ExtResource("2_hfa12")
+region = Rect2(640, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vb4rc"]
+atlas = ExtResource("2_hfa12")
+region = Rect2(768, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ga8we"]
+resource_local_to_scene = true
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mo3v4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bvtrc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ky26i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m17ja")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eabh1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_asbrc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vb4rc")
+}],
+"loop": false,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="Meat" instance=ExtResource("1_8q3oj")]
+self_modulate = Color(2.5, 1.5, 0, 1)
+scale = Vector2(1.5, 1.5)
+sprite_frames = SubResource("SpriteFrames_ga8we")
+regeneration_amount = 50
+
+[node name="Area2D" parent="." index="0"]
+visible = false
