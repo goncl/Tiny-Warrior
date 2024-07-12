@@ -82,7 +82,7 @@ func _physics_process(delta: float) -> void:
 	var target_velocity = input_vector * speed * 100.0
 	if is_attacking:
 		target_velocity *= 0.25
-	velocity = lerp(velocity, target_velocity, 0.05)
+	velocity = lerp(velocity, target_velocity, 0.06)
 	move_and_slide()
 
 
