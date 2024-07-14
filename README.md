@@ -1,12 +1,12 @@
-<<<<<<< HEAD
-![](res://addons/Foto/logo.png)
+
+![](addons/Foto/logo.png)
 
 # Tiny Warrior
 É um jogo de ação 2D desenvolvido usando o Godot Engine. 
 O jogo envolve combate, coleta de ouro, e gerenciamento de vida e  morte dos personagens.  
 Neste jogo, você controla um pequeno guerreiro que deve enfrentar monstros e coletar itens para 
 sobreviver o máximo de tempo possível. 
-Cada carne vermelha regenera 20% da sua vida e as carnes douradas 50%, toda bolsa de ouro coletada 
+Cada carne vermelha regenera 10% da sua vida e as carnes douradas 50%, toda bolsa de ouro coletada 
 rendem 10 moedas de ouro que são somadas ao seu placar. 
 
 ## Comandos básicos
@@ -135,17 +135,17 @@ do placar.
 GameOverUI.tscn: Cena de interface de usuário para a tela de game over.
 
 ### Links Úteis
-Link do jogo [https://goncl.itch.io/tiny-warrior](https://goncl.itch.io/tiny-warrior)
-Link GitHub do repositório do jogo [https://github.com/goncl/Tiny-Warrior](https://github.com/goncl/Tiny-Warrior)
-Efeitos sonoros para jogos[https://sfbgames.itch.io/chiptone](https://sfbgames.itch.io/chiptone)
-Como colocar sons no seu jogo [https://www.youtube.com/watch?v=s-P0kuHBOAU&t=8s](https://www.youtube.com/watch?v=s-P0kuHBOAU&t=8s)
-Criando o MENU PRINCIPAL no GODOT [https://www.youtube.com/watch?v=pjQ_PHwe5WM](https://www.youtube.com/watch?v=pjQ_PHwe5WM)
-IA para criação de logos e imagens [https://ideogram.ai/login](https://ideogram.ai/login)
-[Documentação do Godot Engine](https://docs.godotengine.org/pt-br/4.x/index.html)
-[Godot Tutorials - HeartBeast](https://www.youtube.com/@uheartbeast/featured)
-[Godot Engine Q&A](https://godotengine.org/download/windows/)
-[Git](https://git-scm.com/downloads)
-[GitHub](https://github.com/)
+- Link do jogo [https://goncl.itch.io/tiny-warrior](https://goncl.itch.io/tiny-warrior)
+- Link GitHub do repositório do jogo [https://github.com/goncl/Tiny-Warrior](https://github.com/goncl/Tiny-Warrior)
+- Efeitos sonoros para jogos[https://sfbgames.itch.io/chiptone](https://sfbgames.itch.io/chiptone)
+- Como colocar sons no seu jogo [https://www.youtube.com/watch?v=s-P0kuHBOAU&t=8s](https://www.youtube.com/watch?v=s-P0kuHBOAU&t=8s)
+- Criando o MENU PRINCIPAL no GODOT [https://www.youtube.com/watch?v=pjQ_PHwe5WM](https://www.youtube.com/watch?v=pjQ_PHwe5WM)
+- IA para criação de logos e imagens [https://ideogram.ai/login](https://ideogram.ai/login)
+- [Documentação do Godot Engine](https://docs.godotengine.org/pt-br/4.x/index.html)
+- [Godot Tutorials - HeartBeast](https://www.youtube.com/@uheartbeast/featured)
+- [Godot Engine Q&A](https://godotengine.org/download/windows/)
+- [Git](https://git-scm.com/downloads)
+- [GitHub](https://github.com/)
 
 ### Contato
 Para quaisquer dúvidas ou sugestões, entre em contato através 
@@ -154,6 +154,5 @@ de goncl7@gmail.com
 ### Contribuição
 Se você quiser contribuir para o projeto, sinta-se à vontade para abrir um 
 pull request ou reportar issues no GitHub.
-=======
->>>>>>> 5c48e601dd0da94c557159b3ad0d559a3d546b86
+
 
