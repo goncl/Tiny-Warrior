@@ -14,3 +14,4 @@ func on_body_entered(body: Node2D) -> void:
 		player.heal(regeneration_amount)
 		player.meat_collected.emit(regeneration_amount)
 		queue_free()
+		

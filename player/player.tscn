@@ -1,9 +1,12 @@
-[gd_scene load_steps=20 format=3 uid="uid://bde0jlck61cdp"]
+[gd_scene load_steps=23 format=3 uid="uid://bde0jlck61cdp"]
 
 [ext_resource type="Script" path="res://player/player.gd" id="1_cdtk4"]
 [ext_resource type="PackedScene" uid="uid://b6wsg8q4fpus6" path="res://misc/ritual.tscn" id="2_2ndn7"]
 [ext_resource type="PackedScene" uid="uid://3urxvd4swjei" path="res://misc/big_skull.tscn" id="2_w7but"]
 [ext_resource type="Texture2D" uid="uid://cxlf7uxu3s7mn" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png" id="4_eff7b"]
+[ext_resource type="AudioStream" uid="uid://5e8cjglagdsq" path="res://soundFX/attack.wav" id="5_5owkj"]
+[ext_resource type="AudioStream" uid="uid://b22jwwan465ac" path="res://soundFX/up.wav" id="6_a61eq"]
+[ext_resource type="AudioStream" uid="uid://wxblf0ch4ojv" path="res://soundFX/coin.wav" id="7_8rfy8"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_w5d60"]
 radius = 22.0
@@ -256,3 +259,15 @@ theme_override_styles/fill = SubResource("StyleBoxFlat_1j1rf")
 value = 75.0
 rounded = true
 show_percentage = false
+
+[node name="attacksom" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_5owkj")
+bus = &"soundFX"
+
+[node name="upsom" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_a61eq")
+bus = &"soundFX"
+
+[node name="coinsom" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_8rfy8")
+bus = &"soundFX"

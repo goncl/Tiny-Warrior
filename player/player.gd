@@ -161,6 +161,7 @@ func attack(direction: String) -> void:
 	
 	# Marcar ataque
 	is_attacking = true
+	$attacksom.play()
 
 	# Aplicar dano aos inimigos
 	deal_damage_to_enemies()
@@ -209,7 +210,6 @@ func update_hitbox_detection(delta: float) -> void:
 
 func damage(amount: int) -> void:
 	if health <= 0: return
-	
 	health -= amount
 	print("Player recebeu dano de ", amount, ". A vida total é de ", health, "/", max_health)
 	
@@ -219,7 +219,7 @@ func damage(amount: int) -> void:
 	tween.set_ease(Tween.EASE_IN)
 	tween.set_trans(Tween.TRANS_QUINT)
 	tween.tween_property(self, "modulate", Color.WHITE, 0.3)
-
+	
 	
 	# Processar morte
 	if health <= 0:
@@ -233,7 +233,7 @@ func die() -> void:
 		var death_object = death_prefab.instantiate()
 		death_object.position = position
 		get_parent().add_child(death_object)
-	
+
 	print("Player morreu!")
 	queue_free()
 
@@ -243,9 +243,11 @@ func heal(amount: int) -> int:
 	if health > max_health:
 		health = max_health
 	print("Player recebeu cura de ", amount, ". A vida total é de ", health, "/", max_health)
+	$upsom.play()
 	return health
 	
 func gold_bag_coins(gold_coins_amount: int) -> int:
 	gold_coins += gold_coins_amount
 	print("Player recebeu ", gold_coins_amount, " moedas de ouro, Total de ouro ", gold_coins)
+	$coinsom.play()
 	return gold_coins	

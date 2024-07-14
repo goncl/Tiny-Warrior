@@ -18,12 +18,21 @@ func _ready():
 	restart_cooldown = restart_delay
 
 
-func _process(delta):
-	restart_cooldown -= delta
-	if restart_cooldown <= 0.0:
-		restart_game()
+#func _process(delta):
+	#restart_cooldown -= delta
+	#if restart_cooldown <= 0.0:
+		#restart_game()
 
 
-func restart_game():
+#func restart_game():
+	
+	
+
+
+func _on_start_button_button_down():
 	GameManager.reset()
 	get_tree().reload_current_scene()
+
+
+func _on_exit_button_button_down():
+	get_tree().quit()

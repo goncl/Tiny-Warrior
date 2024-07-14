@@ -1,9 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://b6wsg8q4fpus6"]
+[gd_scene load_steps=11 format=3 uid="uid://b6wsg8q4fpus6"]
 
 [ext_resource type="Script" path="res://misc/ritual.gd" id="1_jco7j"]
 [ext_resource type="Texture2D" uid="uid://c0oaf3onb085f" path="res://addons/Kenney's Particle Pack/circle_03.png" id="1_ltmoo"]
 [ext_resource type="Texture2D" uid="uid://cx3ql4whiop83" path="res://addons/Kenney's Particle Pack/light_02.png" id="2_07e4j"]
 [ext_resource type="Texture2D" uid="uid://twgif6i3eeey" path="res://addons/Kenney's Particle Pack/magic_02.png" id="3_hphou"]
+[ext_resource type="AudioStream" uid="uid://vsfkpaqkn75r" path="res://soundFX/ritual.wav" id="5_lfcai"]
 
 [sub_resource type="Animation" id="Animation_amtmy"]
 length = 0.001
@@ -218,3 +219,8 @@ texture = ExtResource("3_hphou")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("CircleShape2D_0jsx3")
 debug_color = Color(0, 0.6, 0.701961, 0)
+
+[node name="ritualsom" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_lfcai")
+autoplay = true
+bus = &"soundFX"

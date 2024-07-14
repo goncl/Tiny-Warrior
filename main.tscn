@@ -1,4 +1,4 @@
-[gd_scene load_steps=53 format=3 uid="uid://dtc36lavr0i4m"]
+[gd_scene load_steps=54 format=3 uid="uid://dtc36lavr0i4m"]
 
 [ext_resource type="PackedScene" uid="uid://bde0jlck61cdp" path="res://player/player.tscn" id="1_kna0o"]
 [ext_resource type="Script" path="res://main.gd" id="1_vqpri"]
@@ -25,6 +25,7 @@
 [ext_resource type="Script" path="res://systems/difficulty_system.gd" id="20_njv2e"]
 [ext_resource type="PackedScene" uid="uid://xoffyjiw628u" path="res://misc/tree.tscn" id="22_yd0qf"]
 [ext_resource type="PackedScene" uid="uid://5nl6yda4w6cu" path="res://ui/game_ui.tscn" id="25_418ph"]
+[ext_resource type="AudioStream" uid="uid://dwura7c0hfbx3" path="res://soundFX/tema.wav" id="26_ys40d"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h0jl7"]
 texture = ExtResource("4_ukrd5")
@@ -276,6 +277,12 @@ update_scale = false
 remote_path = NodePath("../../MobSpawner")
 update_rotation = false
 update_scale = false
+
+[node name="tema" type="AudioStreamPlayer2D" parent="Player"]
+position = Vector2(-318, -292)
+stream = ExtResource("26_ys40d")
+volume_db = -11.7
+autoplay = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(318, 292)
