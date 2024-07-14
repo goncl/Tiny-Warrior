@@ -11,16 +11,15 @@ rendem 10 moedas de ouro que são somadas ao seu placar.
 
 ## Comandos básicos
 
-|--------|-----------------------------------------------|
 | Ações  |                    Teclas                     |
 |--------|-----------------------------------------------|
 | Mover  |                   A,W,D,S                     |
-|--------|-----------------------------------------------|
+|        |                                               |
 | Atacar |     Enter, Espaço, Botão esquerdo mouse       |
-|--------|-----------------------------------------------|
+|        |                                               |
 | Ritual |  É um ataque em área disparado automaticamente| 
 |        |             de tempos em tempos               |
-|--------------------------------------------------------|
+
 
 ## Sumário
 - Sobre o Repositório
