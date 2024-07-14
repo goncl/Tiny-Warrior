@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![](res://addons/Foto/logo.png)
 
 # Tiny Warrior
@@ -154,4 +155,6 @@ de goncl7@gmail.com
 ### Contribuição
 Se você quiser contribuir para o projeto, sinta-se à vontade para abrir um 
 pull request ou reportar issues no GitHub.
+=======
+>>>>>>> 5c48e601dd0da94c557159b3ad0d559a3d546b86
 
