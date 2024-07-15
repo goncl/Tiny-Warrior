@@ -32,7 +32,7 @@ rendem 10 moedas de ouro que são somadas ao seu placar.
 - Links Úteis e Contato
 - Contribuição
 
-## Sobre o Repositório
+## Sobre o Jogo
 Aprendemos a desenvolver jogos do zero, começando nos fundamentos básicos 
 do que é um jogo, aprendendo a desenvolver utilizando Godot, e criar jogos 
 completos que poderão ser usados para construir um portfólio.
