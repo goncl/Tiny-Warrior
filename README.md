@@ -1,7 +1,8 @@
-
 ![](addons/Foto/logo.png)
 
-# Tiny Warrior
+# Olá, meu nome é Celso Gonçalves esse é meu jogo em Godot
+
+## Tiny Warrior
 É um jogo de ação 2D desenvolvido usando o Godot Engine. 
 O jogo envolve combate, coleta de ouro, e gerenciamento de vida e  morte dos personagens.  
 Neste jogo, você controla um pequeno guerreiro que deve enfrentar monstros e coletar itens para 
