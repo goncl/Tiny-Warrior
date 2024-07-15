@@ -13,7 +13,7 @@ rendem 10 moedas de ouro que são somadas ao seu placar.
 
 | Ações  |                    Teclas                     |
 |--------|-----------------------------------------------|
-| Mover  |                   A,W,D,S                     |
+| Mover  |           A,W,D,S ou teclas de seta           |
 |        |                                               |
 | Atacar |     Enter, Espaço, Botão esquerdo mouse       |
 |        |                                               |
@@ -95,7 +95,7 @@ Abra o Godot e selecione o projeto.
 Rodar a Cena Principal:
 Selecione a cena principal (main.tscn ou equivalente) e clique em "Play" 
 para iniciar o jogo.
-Use as teclas de seta ou WASD para mover o personagem.
+Use as teclas de seta ou W, A, S e D para mover o personagem.
 Pressione a tecla de ataque (space ou Enter ou botão direito do mouse) para 
 atacar os inimigos.
 Colete bolsas de ouro e itens para aumentar sua pontuação e carnes para 
